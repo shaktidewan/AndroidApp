@@ -1,0 +1,55 @@
+[
+  {
+    "id": "1",
+    "name": "Day 1: Chest, Back, Shoulders, Legs, Biceps, Triceps",
+    "desc": "Chest – Barbell Bench Press – 4 sets of 8 reps,Back – Lat-pulldowns – 4 sets of 10 reps,Shoulders – Seated Dumbbell Press – 4 sets of 10 reps,Legs – Leg Extensions – 4 sets of 10 reps,Biceps – Barbell Bbicep Curls – 3 sets of 10 reps,Triceps – Triceps Rope Pushdowns – 3 sets of 15 reps",
+    "image": "https://i.insider.com/5810cce78b987d5d4df68dbf?width=1100&format=jpeg&auto=webp"
+  },
+  {
+    "id": "2",
+    "name": "Day 2: Legs, Triceps, Biceps, Chest, Back, Shoulder",
+    "desc": "Legs – Leg Press Machine – 4 sets of 8 reps, Triceps – Overhead Bar Extensions – 3 sets of 20 reps, Biceps – EZ Bar Curls – 4 sets of 10 reps, Chest – Machine Chest Press – 4 sets of 10 reps, Back – T-Bar Row – 4 sets of 10 reps, Shoulders – Lateral Raises – 3 sets of 20 reps",
+    "image": "https://i.dailymail.co.uk/i/pix/2017/02/22/18/3D891E8700000578-4250026-image-m-58_1487787881157.jpg"
+  },
+  {
+    "id": "3",
+    "name": "Day 3: Shoulders, Back, Chest, Legs, Triceps, Biceps",
+    "desc": "Shoulders – EZ Bar Upright Rows – 3 sets of 15 reps, Back – Close-Grip Pulldowns – 4 sets of 12 reps, Chest – Cable Fly – 4 sets of 10 reps, Legs – Lunges – 3 sets of 10 reps per leg, Triceps – Skullcrushers – 3 sets of 15 reps, Biceps – Hammer Curls – 3 sets of 12 reps",
+    "image": "https://i.dailymail.co.uk/i/pix/2017/02/22/18/3D891E8700000578-4250026-image-m-58_1487787881157.jpg"
+  },
+  {
+    "id": "4",
+    "name": "Day 4:  Shoulders, chest, and Triceps",
+    "desc": "Chest:Barbell Bench Press – 3 sets of 10, 10, 8 reps
+              Dumbbell Flys – 3 sets of 10 reps
+              Cable Crossovers – 3 sets of 10 reps
+              Triceps:
+              Close Grip Bench Press – 4 sets of 10, 10, 8, 6 reps
+              Lying Dumbbell Extension – 3 sets of 10 reps
+              Tricep Kickback – 3 sets of 10 reps
+              Shoulders:
+              Seated Dumbbell Press – 4 sets of 10, 10, 8, 8 reps
+              One Arm Cable Lateral Raise – 3 sets of 12 reps",
+    "image": "https://i.dailymail.co.uk/i/pix/2017/02/22/18/3D891E8700000578-4250026-image-m-58_1487787881157.jpg"
+  },
+  {
+    "id": "5",
+    "name": "Day 5: Back and Bis",
+    "desc": "Back:
+              Seated Row – 4 sets of 10 reps
+              Bent Over Barbell Row – 3 sets of 10 reps
+              Bent Over Row – 3 sets of 12 reps
+              Smith Machine Upright Row – 3 sets of 8-10 reps
+            Biceps:
+              Cable Curl – 4 sets of 8-10 reps
+              Concentration Curl – 3 sets of 10 reps
+              Reverse Barbell Curl – 3 sets of 10 reps",
+    "image": "https://i.dailymail.co.uk/i/pix/2017/02/22/18/3D891E8700000578-4250026-image-m-58_1487787881157.jpg"
+  },
+  {
+    "id": "6",
+    "name": "Legs",
+    "desc": "Front Squats – 5 sets of 20-8 (Pyramiding) reps, Leg Extensions – 5 sets of 10 reps, Hamstring Curls – 5 sets of 6-10 reps, Seated Calf Raise – 5 sets of 6-10 reps, Standing Calf Raise – 3 sets of 8-12 reps",
+    "image": "https://i.dailymail.co.uk/i/pix/2017/02/22/18/3D891E8700000578-4250026-image-m-58_1487787881157.jpg"
+  }
+]
