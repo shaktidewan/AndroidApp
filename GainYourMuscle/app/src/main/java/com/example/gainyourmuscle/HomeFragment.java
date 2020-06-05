@@ -91,14 +91,12 @@ public class HomeFragment extends Fragment {
                 //adpater ko kaam
                 gymAdpater = new GymAdpater(gymModelClasses,HomeFragment.this);
                 rv.setAdapter(gymAdpater);
-
-                Toast.makeText(getActivity(), "Successful", Toast.LENGTH_SHORT).show();
             }
 
             @Override
             public void onFailure(Call<List<GymModel>> call, Throwable t) {
 
-                Toast.makeText(getActivity(), "Unsuccessful", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getActivity(), "INTERNET IS NOT CONNECTED", Toast.LENGTH_LONG).show();
             }
         });
 

@@ -8,14 +8,19 @@
         ></item>
 
     <item
-        android:id="@+id/nav_favourite"
+        android:id="@+id/nav_timer"
         android:icon="@drawable/ic_timer_black_24dp"
         android:title="Timer"
         ></item>
-
     <item
-        android:id="@+id/nav_search"
-        android:icon="@drawable/ic_search_black_24dp"
-        android:title="Search"
+        android:title="Schedule"
+        android:id="@+id/nav_schedule"
+        android:icon="@drawable/ic_event_note_black_24dp"
         ></item>
+    <item
+        android:title="Profile"
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/ic_account_box_black_24dp"
+        ></item>
+
 </menu>

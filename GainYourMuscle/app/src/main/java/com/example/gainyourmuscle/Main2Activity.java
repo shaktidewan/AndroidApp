@@ -1,5 +1,6 @@
 package com.example.gainyourmuscle;
 
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
@@ -25,5 +26,20 @@ public class Main2Activity extends AppCompatActivity {
         tdesc=getIntent().getStringExtra("desc");
         name.setText(tname);
         desc.setText(tdesc);
+
+        //Actionbar And it's title
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.setTitle("Information");
+
+        //enable back button
+        actionBar.setDisplayHomeAsUpEnabled(true);
+        actionBar.setDisplayShowHomeEnabled(true);
+    }
+
+    @Override
+    public boolean onSupportNavigateUp() {
+        //go to previous activity
+        onBackPressed();
+        return super.onSupportNavigateUp();
     }
 }

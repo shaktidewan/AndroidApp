@@ -18,7 +18,7 @@ import androidx.fragment.app.Fragment;
 public class FavouriteFragment extends Fragment {
 
     MediaPlayer songMusic;
-    private Button playM,pauseM;
+    private Button playM,pauseM,stopM;
     //for timer
     private Button tstart,tpause,treset;
     private Chronometer chronometer;
@@ -39,6 +39,8 @@ public class FavouriteFragment extends Fragment {
 
         playM = view.findViewById(R.id.playMusic);
         pauseM = view.findViewById(R.id.pauseMusic);
+        stopM = view.findViewById(R.id.stopMusic);
+
 
         playM.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -52,6 +54,13 @@ public class FavouriteFragment extends Fragment {
             public void onClick(View v) {
                 if(songMusic.isPlaying())
                     songMusic.pause();
+            }
+        });
+        stopM.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(songMusic.isPlaying())
+                    songMusic.stop();
             }
         });
         //FOR TIMER
