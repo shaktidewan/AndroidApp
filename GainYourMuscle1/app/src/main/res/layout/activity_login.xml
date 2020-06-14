@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".LoginActivity">
+
+    <!--TEXTVIEW: Label LOGIN-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="LOGIN"
+        android:textColor="#000"
+        android:textSize="25sp"/>
+    <!--EDITTEXT: input email-->
+    <EditText
+        android:id="@+id/emailEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="92dp"
+        android:hint="Enter Your Email"
+        android:inputType="textEmailAddress" />
+
+    <!--EDITTEXT: input password-->
+
+    <EditText
+        android:id="@+id/passwordEt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="179dp"
+        android:hint="Enter your Password"
+        android:inputType="textPassword" />
+
+
+    <!--BUTTON: login User-->
+    <Button
+        android:id="@+id/loginBtn"
+        style="@style/TextAppearance.AppCompat.Widget.Button.Borderless.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="154dp"
+        android:layout_marginBottom="422dp"
+        android:text="LOG IN" />
+
+
+    <!--TEXT VIEW : Show Dialog to recover password-->
+
+    <TextView
+        android:id="@+id/recoverPassTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:text="Forgot Password?Recover"
+        android:textAlignment="center" />
+
+    <!--GoogleSignInBtn: Google Sign in with google account-->
+
+    <!--TEXT VIEW : GO TO REGISTER ACTIVITY-->
+
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/googleLoginBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="294dp" />
+
+    <TextView
+        android:id="@+id/nothave_accountTv"
+        android:layout_width="242dp"
+        android:layout_height="37dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="84dp"
+        android:layout_marginBottom="370dp"
+        android:text="Does not have an account? Sign Up" />
+
+
+</RelativeLayout>
