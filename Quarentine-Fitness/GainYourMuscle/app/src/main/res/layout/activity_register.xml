@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   android:background="@drawable/dumbell"
+    android:padding="10dp"
+    tools:context=".RegisterActivity">
+
+    <!--TEXTVIEW: Label Registeration-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Quarentine Fitness"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#DCD2D2"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+    <!--EDITTEXT: input email-->
+    <EditText
+        android:id="@+id/emailEt"
+        android:layout_width="348dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="30dp"
+        android:background="#fff"
+        android:hint="Enter Your Email"
+        android:inputType="textEmailAddress"
+        android:textColor="#302C2C" />
+
+    <!--EDITTEXT: input password-->
+
+    <EditText
+        android:id="@+id/passwordEt"
+        android:layout_width="351dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="30dp"
+        android:background="#fff"
+        android:hint="Enter your Password"
+        android:inputType="textPassword"
+        android:textColor="#302C2C" />
+
+    <!--EDITTEXT: input confirm password-->
+
+    <EditText
+        android:id="@+id/confirmPasswordEt"
+        android:layout_width="348dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="30dp"
+        android:background="#fff"
+        android:hint="Confirm Your Password"
+        android:inputType="textPassword"
+        android:textColor="#302C2C" />
+
+    <!--BUTTON: Register User-->
+
+    <Button
+        android:id="@+id/registerBtn"
+        style="@style/TextAppearance.AppCompat.Widget.Button.Borderless.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:text="SUBMIT" />
+
+    <TextView
+        android:id="@+id/have_accountTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/acme"
+        android:text="Already have an account? Login"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
+
